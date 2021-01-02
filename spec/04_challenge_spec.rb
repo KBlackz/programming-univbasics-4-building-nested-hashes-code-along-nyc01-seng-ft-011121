@@ -11,6 +11,6 @@ end
     expect(fourth_challenge[:capulet][:heroine_friends]).to match_array([[{name: "Benvolio", age: "17", attitude: {name: "Nurse", age: "44", attitude: "worried"}]])
 
   
-    }
+    
     end
 end
