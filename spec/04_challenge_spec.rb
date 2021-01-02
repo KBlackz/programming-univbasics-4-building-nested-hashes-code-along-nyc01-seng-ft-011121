@@ -8,7 +8,7 @@ describe "fourth_challenge" do
 end
 
   it "fills out the Capulet heroine's friends array with" do
-    expect(fourth_challenge[:capulet][:heroine_friends]).to match_array([{name: "Benvolio", age: "17", attitude: {name: "Nurse", age: "44", attitude: "worried"}}])
+    expect(fourth_challenge[:capulet][:heroine_friends]).to match_array({name: "Benvolio", age: "17", attitude: {name: "Nurse", age: "44", attitude: "worried"}})
 
   
     
